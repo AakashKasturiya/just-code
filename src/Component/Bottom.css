@@ -1,0 +1,37 @@
+:root {
+    --dark-blue: #14007a;
+    --blue: #1d1e22;
+    --light-blue: rgb(74, 225, 255);
+    --pink: rgb(255, 40, 113);
+}
+.pane{
+    background-color: #fff;
+}
+.cardDiv.card {
+    background: #464953;;
+}
+.imglogo{
+    width: 1.3rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+.headerDiv.card-header {
+    background: #000;
+}
+.text-header{
+
+    font: 600 1.2rem sans-serif;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+textarea{
+    width: 100%;
+    height: calc(100% - 4rem);
+    background-color: var(--blue);
+    color: var(--light-blue);
+    border: none;
+    padding: 1rem;
+    font-size: 8px;
+    resize: vertical;
+}
